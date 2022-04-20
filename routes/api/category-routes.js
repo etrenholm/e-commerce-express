@@ -1,8 +1,8 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
+// GET all categories and include associated Products
 router.get('/', (req, res) => {
-  // find all categories and include associated Products
   Category.findAll({
     attributes: [
       'id',
@@ -21,8 +21,8 @@ router.get('/', (req, res) => {
   })
 });
 
+// GET one category by its `id` and include associated Products
 router.get('/:id', (req, res) => {
-  // find one category by its `id` value and include associated Products
   Category.findOne({
     where: {
       id: req.params.id
@@ -44,8 +44,8 @@ router.get('/:id', (req, res) => {
   })
 });
 
+// POST a new category
 router.post('/', (req, res) => {
-  // create a new category
   Category.create({
     category_name: req.body.category_name
   })
@@ -57,8 +57,8 @@ router.post('/', (req, res) => {
   })
 });
 
+// UPDATE a category by its `id`
 router.put('/:id', (req, res) => {
-  // update a category by its `id` value
   Category.update({
     category_name: req.body.category_name
   },
@@ -79,8 +79,8 @@ router.put('/:id', (req, res) => {
   })
 });
 
+// DELETE a category by its `id`
 router.delete('/:id', (req, res) => {
-  // delete a category by its `id` value
   Category.destroy({
     where: {
       id: req.params.id

@@ -59,7 +59,6 @@ npm start
 * Used Insomnia to test all routes
 
 ### STEP 5. - FINALIZE
-*
 * Made various commits throughout process to save progress
 * Recorded video to show how to run the application
 * Made tweaks and finished README.md
