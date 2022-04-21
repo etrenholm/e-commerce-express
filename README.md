@@ -66,7 +66,7 @@ npm run seed
 
 ### STEP 5. - FINALIZE
 * Made various commits throughout process to save progress
-* Recorded video to show how to run the application
+* Recorded video to show routes in Insomnia
 * Made tweaks and finished README.md
 
 ## Results
