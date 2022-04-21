@@ -70,7 +70,7 @@ npm run seed
 * Made tweaks and finished README.md
 
 ## Results
-* [Video Link](https://drive.google.com/file/d/1GaeYpR4KyiveN0xCc9lb4XR4Q-UORZ2d/view)
+* [Video Link](https://drive.google.com/file/d/1ZNF4C_-igY7xzzcrO7CMgckcl5ie568d/view)
 * [GitHub Repository](https://github.com/etrenholm/e-commerce-express)
 
 ### Output Example
