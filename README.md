@@ -26,6 +26,12 @@ To run this application, type the following into the command line:
 npm start
 ``` 
 
+Open another terminal to the side and type the following into the command line:
+
+```
+npm run seed
+``` 
+
 ## Technologies
 * VS Code
 * JavaScript
